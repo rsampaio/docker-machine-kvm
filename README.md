@@ -4,6 +4,12 @@ KVM driver for docker-machine
 This driver leverages the new [plugin architecture](https://github.com/docker/machine/issues/1626) being
 developed for Docker Machine.
 
+# Install
+
+```
+GOGC=off go get -x -v github.com/rsampaio/docker-machine-kvm/cmd/docker-machine-driver-kvm
+```
+
 # Dependencies
 
 This driver leverages [libvirt](http://libvirt.org/) and the [libvirt-go
